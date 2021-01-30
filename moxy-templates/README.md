@@ -1,4 +1,4 @@
-We've introduced you into Moxy - mvp framework for spliting application into logic layers and lifecycle managing. Now it's time to to reduce boilerplate via Android Studio Templates
+We've introduced you into Moxy - mvp framework for splitting application into logic layers and lifecycle managing. Now it's time to reduce boilerplate via Android Studio Templates
 
 
 <h4><b>Project structure</b></h4>
@@ -19,12 +19,12 @@ Firstly we should immobilize project structure
 	</ul></li>
 </ul>
 
-Presenter, view, activity and fragment  packages consist of logic modules.  These models are often the application's sections  (f.e. intro, offers, feed)
-Check example with two Activity (CarActivity and HomeActivity) and one fragment (CarDetailsFragment) belowarDetailsFragment)
+Presenter, view, activity and fragment packages consist of logic modules. These models are often the application's sections  (f.e. intro, offers, feed)
+Check example with two Activities (CarActivity and HomeActivity) and one fragment (CarDetailsFragment) below CarDetailsFragment)
 
  ![Activity template](https://raw.githubusercontent.com/Arello-Mobile/Moxy/master/moxy-templates/images/project_structure.jpg)
 
-Our goal is generate this class set using Android Studio Templates
+Our goal is to generate this class set using Android Studio Templates
 
 <h4><b>Template settings</b></h4>
 
@@ -48,10 +48,10 @@ Managing hot keys for templates quick access:
 * Click your **ROOT** package and then press Alt + A.
 * In Activity Name box enter "MyFirstMoxyActivity"
 
-Other fields will fill automaticly
+Other fields will be filled automatically
 
  ![Activity template](https://raw.githubusercontent.com/Arello-Mobile/Moxy/master/moxy-templates/images/activity_template.jpg)
 
-Finaly print in the Package Name field yoor subpackage name (f.e. first) and press Finish.
+Finally print in the Package Name field your subpackage name (f.e. first) and press Finish.
 
 <b>Attention</b> while your Android Studio upgrading all the custom templates can be delayed. In this case it is necessary to import them again
